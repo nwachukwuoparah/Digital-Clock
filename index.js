@@ -93,6 +93,6 @@ class Timer extends Age {
 }
 let runTimer = new Timer();
 runTimer.Run();
-// setInterval(() => {
-//   window.location.reload(1);
-// }, 1000);
+setInterval(() => {
+  window.location.reload(1);
+}, 5000);
