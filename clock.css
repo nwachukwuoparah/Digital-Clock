@@ -1,0 +1,42 @@
+* {
+  margin: none;
+}
+body {
+  background-color: rgb(237, 229, 229);
+}
+#time {
+  background-image: url("flow-roi-reduction.png");
+
+  border-radius: 300px;
+  color: white;
+  height: 300px;
+  width: 900px;
+  font-size: 3rem;
+  font-weight: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#container {
+  /* background-image: url("img.jpeg"); */
+  background-color: rgb(87, 77, 77);
+  border-radius: 300px;
+  height: 300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#clock {
+  /* background-color: rgb(124, 81, 15); */
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
